@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DicePoker.Library", "DicePoker.Library\DicePoker.Library.csproj", "{F7DE31AE-09AD-40C1-89E1-63154BD31BBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DicePoker.WindowsApplication", "DicePoker.WindowsApplication\DicePoker.WindowsApplication.csproj", "{C1251912-71BB-4B74-86CA-073E04116B63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F7DE31AE-09AD-40C1-89E1-63154BD31BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7DE31AE-09AD-40C1-89E1-63154BD31BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7DE31AE-09AD-40C1-89E1-63154BD31BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1251912-71BB-4B74-86CA-073E04116B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1251912-71BB-4B74-86CA-073E04116B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1251912-71BB-4B74-86CA-073E04116B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1251912-71BB-4B74-86CA-073E04116B63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
