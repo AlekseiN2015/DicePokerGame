@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DicePoker.WindowsApplication"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="DicePoker" Height="358.358" Width="490.522">
     <Grid>
-        
+        <Button Content="Single Game" Command="{Binding StartSingleGameCommand}" Margin="170,70,170,210" FontSize="20" Cursor="Hand"/>
+        <Button Content="Multi Game" Command="{Binding StartMultiGameCommand}" Margin="170,150,170,130" FontSize="20" Cursor="Hand"/>
     </Grid>
 </Window>

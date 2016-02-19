@@ -11,6 +11,11 @@ namespace DicePoker.Library.Implementations
             throw new NotImplementedException();
         }
 
+        public void NextRound()
+        {
+            throw new NotImplementedException();
+        }
+
         public IEnumerable<IRound> Rounds { get; }
         public IEnumerable<IPlayer> Players { get; }
     }

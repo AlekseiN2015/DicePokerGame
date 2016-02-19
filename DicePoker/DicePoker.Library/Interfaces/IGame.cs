@@ -9,5 +9,8 @@ namespace DicePoker.Library.Interfaces
         IEnumerable<IRound> Rounds { get; }
 
         IEnumerable<IPlayer> Players { get; }
+
+        void NextRound();
+
     }
 }
