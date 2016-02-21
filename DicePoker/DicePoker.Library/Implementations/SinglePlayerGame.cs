@@ -14,6 +14,7 @@ namespace DicePoker.Library.Implementations
             //TODO: create computer player
             var computer = new ComputerPlayer();
             //create a player
+
             //create a round 
             //add the rount into rounds collection
             //implement logic of game ...

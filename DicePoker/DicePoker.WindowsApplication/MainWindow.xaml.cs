@@ -13,5 +13,10 @@ namespace DicePoker.WindowsApplication
             InitializeComponent();
             DataContext = new MainViewModel();
         }
+
+        private void ButtonCloseClicked(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
